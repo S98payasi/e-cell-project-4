@@ -1,0 +1,158 @@
+body{
+   background-image: url(/IMAGE/back.jpg);
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-attachment: fixed;
+}
+
+.header{
+    background-color: rgba(178, 204, 129, 0.404);
+    margin-right:0;
+    border:cornsilk;
+    border-radius: 10px;
+    margin-left: 0px;
+    animation-name: rat;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+.logo{
+    height: 50px;
+
+}
+.top{
+    display:flex;
+    
+    }
+.top img{
+  margin:10px;
+  margin-top: 20px;
+   background-color:rgb(233, 233, 176);
+   padding-right: 9px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left:9px;
+   border-radius: 10px;
+   animation-name:hub;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  height: 20px;
+ 
+
+  
+}
+@keyframes hub{
+    from {background-color: rgb(140, 226, 147);transform: rotate(0deg);} 
+    to {background-color: rgb(110, 212, 219);transform: rotate(360deg);}
+    
+        
+}
+
+
+nav div ul li {
+    
+    padding:7px;
+    font-weight: bold;
+    font-size:20px;
+    list-style: none;
+}
+.LIST{
+    display:flex;
+    cursor: pointer;
+    margin-top:20px;
+}
+.LIST :hover{
+    color: rgb(27, 161, 22);
+}
+.nevg{
+    padding-left: 25rem;
+    padding-right: 3px;
+}
+@keyframes rat{
+    0%   {background-color:wheat}
+  25%  {background-color: rgb(233, 164, 224);}
+  50%  {background-color: rgb(243, 220, 144);}
+  100% {background-color: rgb(207, 223, 137);}
+
+}
+.model{
+    background-color: white;
+    margin-top: 2cm;
+    margin-left: 300px;
+    margin-right:600px ;
+   width:300px;
+    height: 400px;
+    text-align: center;
+    padding-right: 10px;
+    padding-left:20px;
+    border: rgb(209, 190, 20) solid;
+    border-radius: 10px;
+    animation-name:class;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    display: none;
+}
+   .model textarea{
+       margin-top: 60px;
+       border: steelblue solid;
+       border-radius: 10px;
+       background-color: rgb(241, 215, 241);
+       padding-left: 15px;
+       height: 35px;
+       font-weight: bold;
+       font-size: 15px;
+       
+       font-family: 'Fuzzy Bubbles', cursive;
+       font-family: 'Luxurious Roman', cursive;
+       font-family: 'Playfair Display', serif;
+     
+   }
+   .button{
+       margin-top: 100px;
+       height: 2rem;
+       width:4rem;
+   }
+
+   
+       
+   
+ @keyframes class{ 
+     from {background-color: rgb(247, 248, 192);}
+    } 
+   to {background-color: rgb(33, 141, 78);}
+  .tutorials li select{
+     
+      margin-left: 20rem;
+      margin-top: 2rem;
+      font-size: 2rem;
+      width: 14cm;
+      border-radius: 20px;
+      
+  }
+  .tutorials li :hover{
+      color: rgb(128, 53, 19);
+  }
+  .tutorials li {
+      list-style: none;
+  }
+  .INSTR img{
+      height: 20rem;
+      width:20rem;
+      margin-left: 20%;
+     margin-top: 5%;
+  }
+ .INSTR{
+     display: FLEX;
+ }
+ 
+   .INSTR{
+       display: inline-flexbox;
+       width: 100%;
+   } 
+   .INSTR ul{
+       margin-top: 15%;
+       width: 30rem;
+       color: bisque;
+       list-style:disc;
+   }
+ 
